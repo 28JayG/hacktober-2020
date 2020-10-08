@@ -12,8 +12,14 @@
     rgba(9, 9, 121, 1) 27%,
     rgba(0, 212, 255, 1) 100%
   );
+  border-radius: 10px;
+  transition: transform 200ms ease-out;
+  box-shadow: 0 0 15px rgba(0,0,0,0.5);
 }
 
+.card:hover{
+  transform: scale(1.02);
+}
 .card .profile-image{
   width: 80px;
   height: 80px;
