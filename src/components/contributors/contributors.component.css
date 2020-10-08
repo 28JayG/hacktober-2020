@@ -36,3 +36,24 @@
         font-size: 47px;
     }
 }
+
+@media screen and (min-width: 1024px){
+    .contributors{
+        top:60%;
+    }
+
+    .contributors .title{
+        font-size: 60px;
+    }
+
+    .contributors .cards-wrapper{
+        width: 70%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 1280px){
+    .contributors .cards-wrapper{
+        width: 60%;
+    }
+}
