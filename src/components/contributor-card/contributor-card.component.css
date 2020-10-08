@@ -1,0 +1,47 @@
+.card {
+  width: 250px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgb(98, 3, 114);
+  background: linear-gradient(
+    24deg,
+    rgba(98, 3, 114, 1) 0%,
+    rgba(9, 9, 121, 1) 27%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+.card .profile-image{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: white;
+
+}
+
+.card .name{
+  margin: 0;
+  font-family: Piazzolla, serif;
+  font-size: 22px;
+  color: white;
+  font-weight: 400;
+  text-align: center;
+}
+
+.card .occupation{
+  font-family: Montserrat, sans-serif;
+  font-weight: 700;
+  text-align: center;
+  color:white;
+  margin-bottom: 60px ;
+}
+
+.card .social-media-row{
+  display: flex;
+  width: 120px;
+  height: auto;
+  justify-content: space-between;
+}

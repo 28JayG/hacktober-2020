@@ -1,16 +1,19 @@
 .contributors {
   position: absolute;
-  top: 45%;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  top: 35%;
   left: 0;
   width: 100vw;
   max-width: 100%;
   background-color: white;
   height: auto;
-  clip-path: polygon(0 15%, 100% 0%, 100% 85%, 0% 100%);
+  clip-path: polygon(0 10%, 100% 0%, 100% 90%, 0% 100%);
 }
 
 .contributors .title{
     margin: 0;
+    margin-bottom: 10px;
     text-align: center;
     color: black;
     font-size: 33px;
@@ -18,9 +21,18 @@
     font-weight: 500;
 }
 
-.contributors .card-wrapper{
+.contributors .cards-wrapper{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    justify-content: center;
+    row-gap: 20px;
+    column-gap: 20px;
     width: 100%;
+}
+
+@media screen and (min-width: 768px){
+    .contributors .title{
+        font-size: 47px;
+    }
 }
