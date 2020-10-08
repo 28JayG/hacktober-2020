@@ -1,7 +1,7 @@
 import React from 'react';
 import faker from 'faker';
 
-import {  FaGithubSquare, FaInstagram, FaLinkedin } from 'react-icons/fa';
+import { FaGithubSquare, FaInstagram, FaLinkedin } from 'react-icons/fa';
 
 import './contributor-card.component.css';
 
@@ -16,8 +16,7 @@ const ContributorCard = ({
       <img
         src={faker.image.avatar()}
         className='profile-image'
-        alt='profile photo'
-        
+        alt='profile'
       />
       <h6 className='name'>{faker.name.findName()}</h6>
       <span className='occupation'>{'enterpenuere'}</span>
