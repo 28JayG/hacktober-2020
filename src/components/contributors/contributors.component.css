@@ -1,0 +1,26 @@
+.contributors {
+  position: absolute;
+  top: 45%;
+  left: 0;
+  width: 100vw;
+  max-width: 100%;
+  background-color: white;
+  height: auto;
+  clip-path: polygon(0 15%, 100% 0%, 100% 85%, 0% 100%);
+}
+
+.contributors .title{
+    margin: 0;
+    text-align: center;
+    color: black;
+    font-size: 33px;
+    font-family: Piazzolla, serif;
+    font-weight: 500;
+}
+
+.contributors .card-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+}
