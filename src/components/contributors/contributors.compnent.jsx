@@ -9,6 +9,8 @@ const Contributors = () => (
         <div className='cards-wrapper'>
             <ContributorCard />
             <ContributorCard />
+            <ContributorCard />
+            <ContributorCard />
         </div>
     </div>
 );

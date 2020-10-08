@@ -59,3 +59,21 @@
     font-size: 18px;
   }
 }
+
+@media screen and (min-width: 1024px) {
+
+  .homepage-container .header-container {
+    width: 50vw;
+    margin: 30px auto;
+    padding: 15px;
+  }
+
+  .header-container .title{
+    font-size: 60px;
+    font-weight: 700;
+  }
+
+  .header-container .description{
+    font-size: 22px;
+  }
+}
