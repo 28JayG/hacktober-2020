@@ -11,19 +11,22 @@ const ContributorCard = ({
   socialMediaURLs,
   featureImageURL,
 }) => {
+  console.log(process.env.PUBLIC_URL);
   return (
     <div className='card'>
-      <img
-        src={faker.image.avatar()}
-        className='profile-image'
-        alt='profile'
-      />
-      <h6 className='name'>{faker.name.findName()}</h6>
-      <span className='occupation'>{'enterpenuere'}</span>
+      <img src={featureImageURL} className='profile-image' alt='profile' />
+      <h6 className='name'>{name ? name : faker.name.findName()}</h6>
+      <span className='occupation'>{occupation ? occupation : ''}</span>
       <div className='social-media-row'>
-        <FaInstagram size={32} color='white' />
-        <FaLinkedin size={32} color='white' />
-        <FaGithubSquare size={32} color='white' />
+        <a href={socialMediaURLs ? socialMediaURLs.instagram : '/'}>
+          <FaInstagram size={32} color='white' />
+        </a>
+        <a href={socialMediaURLs ? socialMediaURLs.linkedin : '/'}>
+          <FaLinkedin size={32} color='white' />
+        </a>
+        <a href={socialMediaURLs ? socialMediaURLs.github : '/'}>
+          <FaGithubSquare size={32} color='white' />
+        </a>
       </div>
     </div>
   );
