@@ -12,7 +12,7 @@ export const contributers={
 
     'Sumit1996-V':{
         name: 'Sumit Vadodaria',
-        occupation: 'Business Analyst, Rupek',
+        occupation: 'Business Analyst, Rupeek',
         featureImageURL: '',
         socialMediaURLs: {
             instagram:'',
