@@ -10,6 +10,7 @@ const Contributors = () => (
       <h3 className='title'>Contributors</h3>
       <div className='cards-wrapper'>
         <ContributorCard {...contributers['28JayG']} />
+        <ContributorCard {...contributers['Sumit1996-V']}/>
       </div>
     </div>
   </div>
