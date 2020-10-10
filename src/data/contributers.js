@@ -9,4 +9,15 @@ export const contributers={
             linkedin:'https://www.linkedin.com/in/jay-gandhi-92b720169/'
         }
     },
+
+    'Sumit1996-V':{
+        name: 'Sumit Vadodaria',
+        occupation: 'Business Analyst, Rupek',
+        featureImageURL: '',
+        socialMediaURLs: {
+            instagram:'',
+            github:'',
+            linkedin:''
+        }
+    },
 }
