@@ -11,7 +11,7 @@ const Contributors = () => (
       <div className='cards-wrapper'>
         <ContributorCard {...contributers['28JayG']} />
         <ContributorCard {...contributers['Sumit1996-V']}/>
-        <ContributorCard  />
+        <ContributorCard {...contributers['Puja7629']} />
       </div>
     </div>
   </div>
