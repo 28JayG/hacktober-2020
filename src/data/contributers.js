@@ -23,11 +23,11 @@ export const contributers={
      'Puja7629':{
         name: 'Puja Kumari',
         occupation: 'Data Science',
-        featureImageURL: '',
+        featureImageURL: 'https://i.ibb.co/48hBqfX/Whats-App-Image-2020-08-02-at-9-49-09-AM.jpg',
         socialMediaURLs: {
-            instagram:'',
-            github:'',
-            linkedin:''
+            instagram:'https://www.instagram.com/dynamic.rainbow/',
+            github:'https://github.com/Puja7629',
+            linkedin:'https://www.linkedin.com/in/puja7629/'
         }
     },
 }
