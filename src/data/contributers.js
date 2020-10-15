@@ -20,4 +20,14 @@ export const contributers={
             linkedin:'https://www.linkedin.com/in/sumit-vadodaria-9b7709123/'
         }
     },
+     'Puja7629':{
+        name: 'Puja Kumari',
+        occupation: 'Data Science',
+        featureImageURL: '',
+        socialMediaURLs: {
+            instagram:'',
+            github:'',
+            linkedin:''
+        }
+    },
 }
