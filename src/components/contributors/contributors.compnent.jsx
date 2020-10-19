@@ -12,6 +12,7 @@ const Contributors = () => (
         <ContributorCard {...contributers['28JayG']} />
         <ContributorCard {...contributers['Sumit1996-V']}/>
         <ContributorCard {...contributers['Puja7629']} />
+        <ContributorCard {...contributers['biswa1751']} />
       </div>
     </div>
   </div>
