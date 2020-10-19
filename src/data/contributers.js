@@ -9,7 +9,6 @@ export const contributers = {
       linkedin: "https://www.linkedin.com/in/jay-gandhi-92b720169/",
     },
   },
-
   "Sumit1996-V": {
     name: "Sumit Vadodaria",
     occupation: "Business Analyst, Rupeek",
@@ -34,7 +33,8 @@ export const contributers = {
   biswa1751: {
     name: "Biswajit Behera",
     occupation: "Full stack Developer",
-    featureImageURL: "",
+    featureImageURL:
+      "https://avatars3.githubusercontent.com/u/36480889?s=460&u=9bf3b1c05fc7bf88ffd9f26a059089af9034d508&v=4",
     socialMediaURLs: {
       instagram: "",
       github: "",
