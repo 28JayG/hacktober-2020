@@ -36,8 +36,8 @@ export const contributers = {
     featureImageURL:
       "https://avatars3.githubusercontent.com/u/36480889?s=460&u=9bf3b1c05fc7bf88ffd9f26a059089af9034d508&v=4",
     socialMediaURLs: {
-      instagram: "",
-      github: "",
+      instagram: "https://www.instagram.com/biswajit_behera_001/?hl=en",
+      github: "https://github.com/biswa1751",
       linkedin: "",
     },
   },
