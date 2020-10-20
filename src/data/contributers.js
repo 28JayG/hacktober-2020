@@ -38,7 +38,7 @@ export const contributers = {
     socialMediaURLs: {
       instagram: "https://www.instagram.com/biswajit_behera_001/?hl=en",
       github: "https://github.com/biswa1751",
-      linkedin: "",
+      linkedin: "https://www.linkedin.com/in/biswajit-behera-86a06215b/",
     },
   },
 };
